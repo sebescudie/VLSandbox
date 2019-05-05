@@ -1317,11 +1317,6 @@
               </Pin>
               <Pin Id="CBIWX8wxv1AMYhXEn0B36s" Name="Result" Kind="OutputPin" Bounds="1349,639" />
             </Patch>
-            <!--
-
-    ************************  ************************
-
--->
             <ProcessDefinition Id="GjayqyCVn9mPvE4961KZqa">
               <Fragment Id="LUxmgR64UJFM10qAe6lycr" Patch="AsQ1hPIM1BwOG1Vio5a8uj" Enabled="true" />
               <Fragment Id="RmPSVCVUz06Pks49gh9DIM" Patch="RWXb5JyBuHhLdVlZzqiDv0" Enabled="true" />
@@ -1850,7 +1845,7 @@
       </p:NodeReference>
       <Patch Id="NeXxDQircTuL9fxfUnIT6q">
         <Canvas Id="I0vn263tKNzOeLqsPjFoQH" CanvasType="Group">
-          <Node Bounds="416,268,46,26" Id="Fzm2bVyga8eMGJBXFDwFFD">
+          <Node Bounds="110,125,46,26" Id="Fzm2bVyga8eMGJBXFDwFFD">
             <p:NodeReference LastCategoryFullName="VSForms.VSForm" LastSymbolSource="VSForms.dll">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="AssemblyCategory" Name="VSForms" />
@@ -1859,7 +1854,7 @@
             </p:NodeReference>
             <Pin Id="SlFIHufzW4EORKhRwaO46Q" Name="Output" Kind="StateOutputPin" />
           </Node>
-          <Node Bounds="416,316,71,26" Id="PAdE8zYHtfqMS8zbftWMxr">
+          <Node Bounds="110,173,71,26" Id="PAdE8zYHtfqMS8zbftWMxr">
             <p:NodeReference LastCategoryFullName="VSForms.VSForm" LastSymbolSource="VSForms.dll">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="GetForm" />
@@ -1868,8 +1863,8 @@
             <Pin Id="Tb0taimbsiVN6vGO5zx6Fs" Name="Output" Kind="StateOutputPin" />
             <Pin Id="J4WWtZ4b8OnLA9iCZEjQbm" Name="Result" Kind="OutputPin" />
           </Node>
-          <Pad Id="CPI57OJ3NPaLC8IPqfQmyW" SlotId="JY2XVm4LhOxMql0Np4um82" Bounds="484,430" />
-          <Node Bounds="490,453,64,19" Id="C0SjlO7Q72cQD9o4X0cG5g">
+          <Pad Id="CPI57OJ3NPaLC8IPqfQmyW" SlotId="JY2XVm4LhOxMql0Np4um82" Bounds="178,287" />
+          <Node Bounds="184,310,64,19" Id="C0SjlO7Q72cQD9o4X0cG5g">
             <p:NodeReference LastCategoryFullName="Main.Utils" LastSymbolSource="VSForms.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="ShowForm" />
@@ -1879,22 +1874,14 @@
             <Pin Id="H1FjaPjz4LEPSJf8sK27VI" Name="Show" Kind="InputPin" />
             <Pin Id="EYv0hinqHUsODV6hdA1L6u" Name="Result" Kind="OutputPin" />
           </Node>
-          <Pad Id="OEYovOqE71EPqyc4vDyRKo" Comment="Show" Bounds="551,420,35,15" ShowValueBox="true" isIOBox="true" Value="False">
-            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
-              <Choice Kind="TypeFlag" Name="Boolean" />
-            </p:TypeAnnotation>
-            <p:ValueBoxSettings>
-              <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Bang</p:buttonmode>
-            </p:ValueBoxSettings>
-          </Pad>
-          <Node Bounds="792,450,76,19" Id="NbiTHq22FrgNV1P22oiRaU">
+          <Node Bounds="486,307,76,19" Id="NbiTHq22FrgNV1P22oiRaU">
             <p:NodeReference LastCategoryFullName="Main" LastSymbolSource="VSForms.vl">
               <Choice Kind="ProcessNode" Name="VSFormSetup" />
             </p:NodeReference>
             <Pin Id="GMVIFfHsRbEPV01AfkuJzr" Name="Form" Kind="InputPin" />
             <Pin Id="AhJ7wDMcBVzQOh72V4ASJV" Name="Color Dialog Result" Kind="OutputPin" />
           </Node>
-          <Node Bounds="416,491,381,19" Id="SfXzUZK9CNFQEmdU34Hnos">
+          <Node Bounds="110,348,381,19" Id="SfXzUZK9CNFQEmdU34Hnos">
             <p:NodeReference LastCategoryFullName="Main" LastSymbolSource="VSForms.vl">
               <Choice Kind="ProcessNode" Name="GetFormValues" />
             </p:NodeReference>
@@ -1908,11 +1895,11 @@
             <Pin Id="NUhBqOqMwY3NG3lEo15Oll" Name="DateTime" Kind="OutputPin" />
             <Pin Id="LTu7IRQeS38OSgXpDFZO32" Name="Value" Kind="OutputPin" />
           </Node>
-          <Pad Id="F3hmaPFthRaMq0toQrqETq" Comment="Textbox" Bounds="418,531,47,7" ShowValueBox="true" isIOBox="true" />
-          <Pad Id="IeJ8DpW7VT2LnCWIpSLLPD" Comment="Combobox" Bounds="481,549,43,15" ShowValueBox="true" isIOBox="true" />
-          <Pad Id="VMfmpQ1UBiSMDDbIlwnKMJ" Comment="Trackbar" Bounds="543,571,42,15" ShowValueBox="true" isIOBox="true" />
-          <Pad Id="Ah49piDdgEPNmEeyfHukzt" Comment="Checkbox" Bounds="606,600,37,15" ShowValueBox="true" isIOBox="true" />
-          <Pad Id="KrsfDVliWU6PCn8ac2iQ73" Bounds="805,499,111,-6" ShowValueBox="true" isIOBox="true" Value="&lt;&lt; look inside">
+          <Pad Id="F3hmaPFthRaMq0toQrqETq" Comment="Textbox" Bounds="112,388,47,15" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="IeJ8DpW7VT2LnCWIpSLLPD" Comment="Combobox" Bounds="175,406,43,15" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="VMfmpQ1UBiSMDDbIlwnKMJ" Comment="Trackbar" Bounds="237,428,42,15" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="Ah49piDdgEPNmEeyfHukzt" Comment="Checkbox" Bounds="300,457,37,15" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="KrsfDVliWU6PCn8ac2iQ73" Bounds="499,356,111,19" ShowValueBox="true" isIOBox="true" Value="&lt;&lt; look inside">
             <p:TypeAnnotation>
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -1921,9 +1908,25 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="IQwqkKuL4pxOXmdo7S2KnH" Comment="Numeric Up Down" Bounds="668,623,35,15" ShowValueBox="true" isIOBox="true" />
-          <Pad Id="HHbHuwNgwsRLNestZJR16U" Comment="DateTime" Bounds="731,645,133,15" ShowValueBox="true" isIOBox="true" />
-          <Pad Id="TYiztPz00tkPbwsIC6XHVG" Comment="Color" Bounds="794,669,136,15" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="IQwqkKuL4pxOXmdo7S2KnH" Comment="Numeric Up Down" Bounds="362,480,35,15" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="HHbHuwNgwsRLNestZJR16U" Comment="DateTime" Bounds="425,502,133,15" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="TYiztPz00tkPbwsIC6XHVG" Comment="Color" Bounds="488,526,136,15" ShowValueBox="true" isIOBox="true" />
+          <Node Bounds="243,277,54,19" Id="Txap4iP0QB5MpYXYIoXBrV">
+            <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="OnOpen" />
+            </p:NodeReference>
+            <Pin Id="QMcDaz35XbZPjf3XzT65jo" Name="Simulate" Kind="InputPin" />
+            <Pin Id="O8kT9epYSqANrOHk7OQwPc" Name="Output" Kind="OutputPin" />
+          </Node>
+          <Pad Id="UOagIRGusDQOlL10NPXPLY" Comment="Show Form" Bounds="245,255,35,15" ShowValueBox="true" isIOBox="true" Value="False">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="TypeFlag" Name="Boolean" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Bang</p:buttonmode>
+            </p:ValueBoxSettings>
+          </Pad>
         </Canvas>
         <Patch Id="S2a0Fdvt9lvMYCjZMb4Qqr" Name="Create" ParticipatingElements="Fzm2bVyga8eMGJBXFDwFFD,PAdE8zYHtfqMS8zbftWMxr" />
         <Patch Id="Gsfxa7tYy9DNl5VdPDzoKW" Name="Update" />
@@ -1935,7 +1938,6 @@
         <Slot Id="JY2XVm4LhOxMql0Np4um82" Name="Form" />
         <Link Id="B7MWkiiiblWPRgoUbLReqp" Ids="J4WWtZ4b8OnLA9iCZEjQbm,CPI57OJ3NPaLC8IPqfQmyW" />
         <Link Id="NFafBEWgDTCN35xTgijLhZ" Ids="CPI57OJ3NPaLC8IPqfQmyW,SIGXrB3UFykMOWZCPGoeiH" />
-        <Link Id="OZRfYfAYi9ZPEO1SP5X6cC" Ids="OEYovOqE71EPqyc4vDyRKo,H1FjaPjz4LEPSJf8sK27VI" />
         <Link Id="PukVyb93vw2LZl4hwOFaMB" Ids="Tb0taimbsiVN6vGO5zx6Fs,GMVIFfHsRbEPV01AfkuJzr" />
         <Link Id="KJGum1Ec2dsOvm32Ui9RKp" Ids="Tb0taimbsiVN6vGO5zx6Fs,GxzZ5f3RyXsQHHOon3YMrF" />
         <Link Id="KoZSDaXytyfOPLgWDFL1iY" Ids="AR3Rpp9YNODNKcQC6rUQLH,F3hmaPFthRaMq0toQrqETq" />
@@ -1946,6 +1948,8 @@
         <Link Id="Sp7t3xasKsXObjgxXDi1R4" Ids="NUhBqOqMwY3NG3lEo15Oll,HHbHuwNgwsRLNestZJR16U" />
         <Link Id="Tnsl0eVTyMgM3FGyXYY8LE" Ids="AhJ7wDMcBVzQOh72V4ASJV,JwE5lsbG0XjMOnBK6RMrTe" />
         <Link Id="BvIM1IJSjvbNhMZPCGcEW7" Ids="LTu7IRQeS38OSgXpDFZO32,TYiztPz00tkPbwsIC6XHVG" />
+        <Link Id="TGZWPmIPV1XOpSOEFl8IQQ" Ids="O8kT9epYSqANrOHk7OQwPc,H1FjaPjz4LEPSJf8sK27VI" />
+        <Link Id="Jg1IrS7m17oPvUeFPcQy5j" Ids="UOagIRGusDQOlL10NPXPLY,QMcDaz35XbZPjf3XzT65jo" />
       </Patch>
     </Node>
   </Patch>
