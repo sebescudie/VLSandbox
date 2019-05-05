@@ -21,5 +21,10 @@ namespace VSForms
         {
             return this;
         }
+
+        public CommonDialog GetColorDialog()
+        {
+            return this.colorDialog1;
+        }
     }
 }
